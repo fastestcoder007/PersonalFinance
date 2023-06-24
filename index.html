@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Finance Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Personal Finance Tracker</h1>
+  </header>
+  
+  <div id="balance">Balance: $0</div>
+  
+  <div id="transactions">
+    <!-- Transaction list will be dynamically generated here -->
+  </div>
+  
+  <form id="transaction-form">
+    <input type="text" id="description" placeholder="Description" required>
+    <input type="number" id="amount" placeholder="Amount" required>
+    <select id="transaction-type">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <button type="submit">Add Transaction</button>
+  </form>
+  
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  #balance {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  #transactions {
+    margin: 20px;
+  }
+  
+  .transaction {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .transaction .amount {
+    font-weight: bold;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  input, select, button {
+    margin: 5px;
+    padding: 5px;
+  }
+  
